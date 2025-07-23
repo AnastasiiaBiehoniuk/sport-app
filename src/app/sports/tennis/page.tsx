@@ -1,15 +1,24 @@
-export default function TennisCourse() {
+export default function Tennis() {
   return (
-    <div>
-      <h1 className="text-2xl font-bold">Курс по теннису</h1>
-      <p className="mt-2">Теннис развивает ловкость, скорость реакции и стратегическое мышление.</p>
-      <ul className="list-disc ml-6 mt-2">
-        <li>Удары</li>
-        <li>Подача</li>
-        <li>Правила</li>
-        <li>Стратегия</li>
+    <section className="px-32 py-20">
+      <h2 className="font-bold text-4xl p-4 m-4">Курс по теннису</h2>
+      <h3 className="font-bold text-2xl p-4 m-4">Введение в теннис:</h3>
+      <ul className="px-6 mx-4 py-1 my-1 flex flex-wrap gap-2">
+        <li className="border py-2 px-4 border-gray-500 max-w-36 rounded-2xl shadow-1xl">
+          удары
+        </li>
+        <li className="border py-2 px-4 border-gray-500 max-w-36 rounded-2xl shadow-1xl">
+          подача
+        </li>
+        <li className="border py-2 px-4 border-gray-500 max-w-36 rounded-2xl shadow-1xl">
+          дыхание
+        </li>
+        <li className="border py-2 px-4 border-gray-500 max-w-36 rounded-2xl shadow-1xl">
+          тактика
+        </li>
       </ul>
-      <p className="mt-2">Курс подходит для всех желающих освоить теннис с нуля.</p>
-    </div>
+
+      <p className="p-4 m-4">Целевая аудитория: подходит для начинающих</p>
+    </section>
   );
 }
