@@ -1,5 +1,8 @@
 import Link from "next/link";
 import React from "react";
+import ThemeToggler from "../ThemeToggler/ThemeToggler";
+
+
 
 export default function NavBar() {
   return (
@@ -22,12 +25,13 @@ export default function NavBar() {
       <Link href={"/users/server-version"} className="hover:text-amber-300">
         Users server
       </Link>
-      <Link href={"/products/products-server"} className="hover:text-amber-300">
-        Products Server
-      </Link>
       <Link href={"/products/products-client"} className="hover:text-amber-300">
-        Products Client
+        Product client
       </Link>
+      <Link href={"/products/products-server"} className="hover:text-amber-300">
+        Product server
+      </Link>
+      <ThemeToggler />
     </nav>
   );
 }

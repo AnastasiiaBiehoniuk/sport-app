@@ -1,9 +1,10 @@
-export default function HomePage() {
+export default function Home() {
   return (
-    <div>
-      <h1 className="text-2xl font-bold">Добро пожаловать на сайт спортивных курсов!</h1>
-      <p className="mt-2">Мы предлагаем удобную платформу для изучения различных видов спорта онлайн.</p>
-      <p className="mt-2">Выберите интересующий вас курс или перейдите в раздел "Курсы по спорту".</p>
+    <div className="p-8">
+      {/* hello next section */}
+      <p className="bg-background text-foreground">Hello Next</p>
+
+      <p className="bg-amber-400 dark:bg-cyan-700">Example</p>
     </div>
   );
 }
